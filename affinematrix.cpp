@@ -20,7 +20,7 @@ _AffineMatrix AffineMatrix::translation(double dx, double dy)
     m.at(0, 2) = dx;
     m.at(1, 2) = dy;
 
-    return mat;
+    return m;
 }
 
 _AffineMatrix AffineMatrix::scale(double kx, double ky)

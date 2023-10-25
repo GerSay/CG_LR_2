@@ -25,6 +25,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         affinematrix.h affinematrix.cpp
         _affinematrix.h _affinematrix.cpp
+        star.h star.cpp
+        lr_2.h lr_2.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET CG_LR_2 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
