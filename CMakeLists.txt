@@ -23,6 +23,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(CG_LR_2
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        affinematrix.h affinematrix.cpp
+        _affinematrix.h _affinematrix.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET CG_LR_2 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
